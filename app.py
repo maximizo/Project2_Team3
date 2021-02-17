@@ -27,7 +27,7 @@ def json_file(obj):
 @app.route("/home")
 @app.route("/index.html")
 def home():
-    return render_template("index.html")
+    return render_template("templates/index.html")
 
 #Route for line chart
 @app.route("/line_chart")
