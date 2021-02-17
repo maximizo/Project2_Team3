@@ -16,7 +16,7 @@ mongo = PyMongo(app)
 
 #write a json file
 def json_file(obj):
-    with open("../static/project_1", "w") as outfile:
+    with open("project_1", "w") as outfile:
         outfile.write(obj)
     # with open("project_1", "w") as outfile:
     #     json.dump(obj, outfile)
